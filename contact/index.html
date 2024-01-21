@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us"><head>
   <meta charset="utf-8" />
-  <title>Royal Americano</title>
+  <title>Contact</title>
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -91,45 +91,70 @@
   </div>
 </nav>
 <main>
-
-<section class="site-project-single-section">
+<section class="site-contact">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
-        <div class="site-project-single">
-          
-          <div class="site-blog-details">
-            <img class="feature-image" src="https://orangewolfgames.com/images/projects/royal-americano-header.jpg" alt="project-header">
-          </div>
-          
-          <h1>
-            Royal Americano
-          </h1>
-          <div class="site-project-single-description">
-            <p>Step into the grandeur of Royal Americano: Rummy Card Game, a riveting card game that infuses the classic rummy mechanics with intricate rules and strategic gameplay. Immerse yourself in a match-based experience where every hand dealt and every move made could tip the scales in your favor.</p>
-<p>As a noble card player, you&rsquo;ll navigate a series of intense matches, each presenting unique challenges and opportunities. Master the art of melding, drawing, and discarding cards as you strive to outmaneuver your opponents and claim victory.</p>
-<p>Form alliances with fellow players and assemble formidable teams. Together, you&rsquo;ll strategize, collaborate, and compete in exhilarating local and global tournaments, aiming to ascend the ranks and earn prestigious rewards.</p>
-<p>Are you ready to showcase your skills, forge alliances, and seize victory in the grand arena of Royal Americano: Rummy Card Game? Join the card-playing elite and let the matches commence!</p>
+      <div class="col-lg-5">
+        <h1 class="site-contact-title">
+          Don’t be shy. Say <span>Hello.</span>
+        </h1>
+        <div class="row">
+          <article class="account-delete-title">
+            <h3 class="blog-title"></h3>
+            <h3 id="for-account-deletion">*For Account Deletion</h3>
+<p>As a Royal Americano player, you have the right to request a deletion for all information we have about your game account. Please be aware that removing your game account information will also remove all of the information we have collected about it, including any achievements from events or in-game purchases.</p>
+<p>Please send the contact form with your <strong>Game User ID</strong> which you can find in the game&rsquo;s profile page (not required) and write <strong>&ldquo;Delete My Account&rdquo;</strong> to the subject, so we will delete your account and the data accociated with your account. This process could take up to 7 days after you submit the form, and if your game account data is deleted, it cannot be retrieved. If you want to play again, though, you can have a fresh start.</p>
 
-          </div>
-          <div class="site-project-single-image">
+          </article>
+        </div>
+      </div>
+      <div class="col-lg-6 ml-auto">
+        <div class="site-contact-form">
+          <h4>Contact Form</h4>
+          <form id="contact-form" method="post">
+            <div class="row">
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="full-name" id="fullName" placeholder="Full Name*" required>
+              </div>
+              <div class="col-lg-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email*" required>
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject*" required>
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" name="gameUserID" id="gameUserID" placeholder="Game User ID">
+              </div>
+              <div class="col-12">
+                <textarea class="form-control" name="body-text" id="bodyText" rows="6" placeholder="Body Text*"></textarea>
+              </div>
+              <div class="col-12">
+                <h6 class="blog-title">*Required</h6>
+              </div>
+              <div class="col-12">
+                <button type="button" class="btn btn-primary" id="contact-form-button" onclick="OnContactFormSend(event)">
+                  <span class="btn-area">
+                    <span data-text="Send Message">
+                      Send Message
+                    </span>
+                  </span>
+                </button>
+              </div>
+              <p id="contact-form-status"></p>
             
-            <img src="https://orangewolfgames.com/images/projects/royal-americano-detail-01.png" alt="project image">
-            
-            <img src="https://orangewolfgames.com/images/projects/royal-americano-detail-02.png" alt="project image">
-            
-          </div>
-          
+            </div>
+          </form>
+          </p>
         </div>
       </div>
     </div>
   </div>
 </section>
 
+<script src="https://www.google.com/recaptcha/api.js?render=6Lf-V0wpAAAAAGTXo9ElGiUntMOq6HksCOSztHnL"></script>
 
-  
 
-
+<script src="https://orangewolfgames.com/js/google_form_linker.min.js" defer></script>
 
         </main><footer class="site-footer">
   <div class="container">
